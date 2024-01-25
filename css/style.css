@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: "trebuchet MS",Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+/*  
+            **** Layout **** 
+ */
+
+.header{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+.header-logo,.header-nav{
+    padding: 10px;
+}
+
+.main{
+    width: 920px;
+    margin: auto;
+    padding: 15px;
+}
+.main-content{
+    width: 660px;
+    float: left;
+}
+.main-lateral-content{
+    width: 240px;
+    float: right;
+}
+img{
+    width: 620px;
+    margin-top: 10px ;
+}
+.content{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.lateral-post{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+.lateral-post-content{
+    font-size: 0.8em;
+    padding: 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid #f4f4f4;
+
+}
+/*
+        **** Formatação Nav****
+*/
+a{
+    text-decoration: none;
+}
+.header-nav-itens{
+    padding:  8px 15px;
+    border-radius: 5px;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+ a:hover{
+   text-decoration: underline;
+}
+
+
+.header-nav a:link, .header-nav a:visited{
+    color: #fff;
+}
+.header-nav a:hover{
+    color: #f7b600;
+    background:#fff;
+    text-decoration: none;
+}
+
+
+/*
+        **** Formatação Geral****
+*/
+h1{
+    color:#4e4e4e;
+    font-size: 2.5em;
+}
+.header-span{
+    color: white;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+.content-span{
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    
+}
